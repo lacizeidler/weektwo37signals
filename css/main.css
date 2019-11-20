@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+/* navigation section  */
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation button{
+    border: none;
+    margin: 15px 11px;
+    font-size: 11.5px;
+    color: navy;
+    background-color: #ffffff;
+}
+
+.navigation .color{
+    color: lightskyblue;
+}
+
+/* header section  */
+
+.header{
+    text-align: center;
+}
+
+.header i{
+    font-size: 30px;
+    margin: 20px 0 20px 20px;
+}
+
+.header h1{
+    font-size: 45px;
+}
+
+.header p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.boxes{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.box{
+    text-align: center;
+    border: 1px solid rgb(250, 246, 246);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin: 5% 0 0 11%;
+    padding: 20px 30px;
+    width: 15%;
+    display: flexbox;
+    height: 277px;
+    line-height: 3em;
+    background-image: url("../css/img/red-wallpaper-designs-red-background-and-nature-object-beautiful-leaf-simple-design-with-red-red-and-white-rose-wallpaper-designs-striped-wallpaper-designs-for-bedrooms.jpg");
+    color: rgb(250, 246, 246);
+}
+
+.box button{
+    border: none;
+    background-color: transparent;
+    color: rgb(250, 246, 246);
+    font-size: 18px;
+}
+
+.box h3{
+    text-decoration: underline;
+}
+
+.box p{
+    line-height: 2em;
+}
+
+.box i{
+    font-size: 30px;
+}
+
+/* three stars  */
+/* millions section  */
+
+.millions hr{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px black dashed;
+}
+.millions{
+    text-align: center;
+    margin: auto;
+    height: 500px;
+}
+.millions h1{
+    font-size: 45px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.millions p{
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 50%;
+    margin-right: 30%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.millions img{
+    float:right;
+    margin-right: -225px;
+    margin-top: -140px;
+}
+
+/* bunch of little icons section */
+
+.bunch img{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
+
+/* company section  */
+
+.company hr{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px black dashed;
+}
+
+.company p{
+    font-size: 45px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left{
+    display: flexbox;
+    float: left;
+    width: 28%;
+    height: 450px;
+    margin-left: 20%;
+    line-height: 1.5em;
+}
+
+.right{
+    display: flexbox;
+    float: right;
+    width: 28%;
+    margin-right: 20%;
+    height: 575px;
+    line-height: 1.5em;
+}
+
+.company h2{
+    float: left;
+    font-size: 45px;
+    color: #999999;
+    margin-right: 10px;
+}
+
+.company h3{
+    color: #9d0b0b;
+}
+
+.company h4{
+    float: right;
+    margin-bottom: 10px;
+}
+
+/* book section  */
+
+
+.book hr{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px black dashed;
+}
+
+.book h2{
+    font-size: 45px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.book img{
+    float: left;
+    margin-left: 150px;
+    height: 350px;
+}
+
+.book p{
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 30%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.book span{
+    font-family: normal;
+    color: black;
+    font-size: 15px;
+}
+
+/* offer section  */
+
+.offer{
+    width: 100%;
+}
+.offer hr{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px black dashed;
+    margin-top: 80px;
+}
+
+.offer h2{
+    font-size: 45px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.right2{
+    display: flexbox;
+    float: right;
+    width: 28%;
+    margin-right: 20%;
+    height: 400px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.left2{
+    display: flexbox;
+    float: left;
+    width: 28%;
+    height: 450px;
+    margin-left: 20%;
+    line-height: 2em;
+    text-align: center;
+}
+
+.offer h3{
+    color: red;
+    border-bottom: 1px #999999 solid;
+}
+
+.offer h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.offer p{
+    color: #999999;
+}
+
+/* footer  */
+
+.footer h2{
+    font-size: 15px;
+    color: red;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.footer p{
+    text-align: center;
+    color: navy;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+.footer h4{
+    text-align: center;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.footer span{
+    color: navy;
+}
